@@ -31,9 +31,10 @@ function countEvenNumbers(arrayOfNumbers) {
     let even = 0;
     for (const i in arrayOfNumbers) {
         if (i % 2 === 0) {
-            even++;
+            even ++;
+            return even;
         }
-        return even;
+        
     };
 }
 assignment.countEvenNumbers = countEvenNumbers;
