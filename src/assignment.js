@@ -60,7 +60,8 @@ let newArray = [];
 
    for(let i=0; i < arrayOfNumbers.length; i++){
 let convertFormula= ((arrayOfNumbers[i] * 1.8) + 32);
-newArray.push(convertFormula);
+let result = Math.floor(convertFormula);
+newArray.push(result);
 }
 
 return newArray;
