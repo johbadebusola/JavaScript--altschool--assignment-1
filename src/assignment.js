@@ -32,10 +32,11 @@ function countEvenNumbers(arrayOfNumbers) {
     for (const i in arrayOfNumbers) {
         if (i % 2 === 0) {
             even++;
-            return even;
+            
         }
         
     }
+return even;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
